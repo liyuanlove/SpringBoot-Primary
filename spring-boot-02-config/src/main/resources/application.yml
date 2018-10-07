@@ -1,0 +1,34 @@
+server:
+  port: 8081
+spring:
+  profiles:
+    active: prod
+
+---
+
+server:
+  port: 8082
+spring:
+  profiles: dev
+
+---
+
+server:
+  port: 8083
+spring:
+  profiles: prod
+
+---
+
+#person:
+#  lastName: 张三
+#  age: 23
+#  boss: false
+#  birth: 1996/04/21
+#  map: {k1: v1,k2: v2}
+#  list:
+#  - 李四
+#  - 王五
+#  dog:
+#    name: 小狗
+#    age: 2
